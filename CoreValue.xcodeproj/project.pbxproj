@@ -298,9 +298,13 @@
 				TargetAttributes = {
 					4D5912571B4989FB0022506E = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 9HLCS3FGTC;
+						LastSwiftMigration = 0800;
 					};
 					4D5912611B4989FB0022506E = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 9HLCS3FGTC;
+						LastSwiftMigration = 0800;
 					};
 					4D5912801B498AF90022506E = {
 						CreatedOnToolsVersion = 7.0;
@@ -513,7 +517,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9HLCS3FGTC;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -525,6 +531,7 @@
 				PRODUCT_NAME = CoreValue;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -533,6 +540,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9HLCS3FGTC;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -543,26 +551,31 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.terhechte.CoreValue;
 				PRODUCT_NAME = CoreValue;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		4D5912701B4989FB0022506E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 9HLCS3FGTC;
 				INFOPLIST_FILE = CoreValueTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.terhechte.CoreValueTests;
 				PRODUCT_NAME = CoreValue;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		4D5912711B4989FB0022506E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 9HLCS3FGTC;
 				INFOPLIST_FILE = CoreValueTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.terhechte.CoreValueTests;
 				PRODUCT_NAME = CoreValue;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
